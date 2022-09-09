@@ -11,7 +11,7 @@ int main(void)
 		int i;
 	for (i = 0; i < 52; i++)
 	{
-		putchar(alp[i]);
+		putchar(aph[i]);
 	}
 	putchar('\n');
 	return (0);
