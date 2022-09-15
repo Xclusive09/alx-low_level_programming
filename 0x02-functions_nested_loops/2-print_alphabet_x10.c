@@ -1,20 +1,25 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * main - Entry point
- * Description: program yhay print 10x the alphabet a-z
- * Return: Void
+ * print_alphabet_x10 - entry point
+ *
+ * Description: Prints the alphabet with _putchar ten times
+ *
+ * Return: void
  */
+
+
 void print_alphabet_x10(void)
 {
-char h;
-char p;
-for (p = 0; p <= 9; p++)
-{
-for (h = 'a'; h <= 'z'; h++)
-{
-_putchar(h);
-}
-_putchar("\n");
-}
+	char c;
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n');
+	}
 }
