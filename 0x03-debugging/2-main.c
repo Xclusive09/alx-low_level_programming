@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - prints the largest of 3 integers
@@ -21,4 +21,3 @@ int main(void)
 
 	return (0);
 }
-
